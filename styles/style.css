@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.back{
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+.top-background{
+    border: solid red 2px;
+    height: 13rem;
+}
+
+
+
+.back section:last-child{
+    border: solid darkgreen 2px;
+    height: 29rem;
+}

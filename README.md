@@ -1,4 +1,4 @@
-# Frontend Mentor - Todo app
+# Frontend Mentor 3rd Challenge - Todo app solution
 
 ![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
 
