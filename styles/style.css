@@ -10,13 +10,25 @@ body{
 }
 
 .top-background{
-    border: solid red 2px;
-    height: 13rem;
+    background-image: url("/images/bg-desktop-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16rem;
 }
 
 
 
 .back section:last-child{
-    border: solid darkgreen 2px;
-    height: 29rem;
+    min-height: 65vh;
+}
+
+.front{
+    border: solid black;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-left: 32%;
+    margin-top: 5.5rem;
+    height: 35rem;
+    width: 33rem;
 }
