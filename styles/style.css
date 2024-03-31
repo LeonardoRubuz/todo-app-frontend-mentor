@@ -28,7 +28,34 @@ body{
     position: absolute;
     top: 0;
     margin-left: 32%;
-    margin-top: 5.5rem;
-    height: 35rem;
+    margin-top: 5.9rem;
+    height: 39rem;
     width: 33rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form, .main-container{
+    border: solid red;
+}
+
+form{
+    height: 2rem;
+    display: flex;
+    padding: .8em 1em;
+    gap: 1.5em;
+    background-color: white;
+}
+
+form span{
+    border: solid black 1px;
+    height: .9rem;
+    width: .9rem;
+    border-radius: 50%;
+    align-self: center;
+}
+
+form input{
+    width: 100%;
 }
