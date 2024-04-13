@@ -28,12 +28,12 @@ body{
     position: absolute;
     top: 0;
     margin-left: 32%;
-    margin-top: 5.9rem;
+    margin-top: 4rem;
     height: 39rem;
     width: 33rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 form, .main-container{
@@ -46,6 +46,7 @@ form{
     padding: .8em 1em;
     gap: 1.5em;
     background-color: white;
+    margin-top: -1rem;
 }
 
 form span{
