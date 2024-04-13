@@ -1,3 +1,18 @@
+*{
+    /* Light theme colors */
+    --very-light-gray : hsl(0, 0%, 98%);
+    --very-light-grayish-blue : hsl(236, 33%, 92%);
+    --light-grayish-blue : hsl(233,11%,84%);
+    --dark-grayish-blue : hsl(236,9%,61%);
+    --very-dark-grayish-blue : hsl(235,19%,35%);
+
+    /* Dark theme colors */
+    --very-dark-blue : hsl(235,21%,11%);
+    --very-dark-desaturated-blue : hsl(235,24%,19%);
+    --dark-grayish-blue-2 : hsl(234,11%,52%);
+    --very-dark-grayish-blue-2 : hsl(233,14%,35%);
+}
+
 body{
     margin: 0;
     overflow-x: hidden;
@@ -36,7 +51,7 @@ body{
     gap: 1.5rem;
 }
 
-form, .main-container{
+.main-container{
     border: solid red;
 }
 
@@ -47,10 +62,11 @@ form{
     gap: 1.5em;
     background-color: white;
     margin-top: -1rem;
+    border-radius: 7px;
 }
 
 form span{
-    border: solid black 1px;
+    border: solid  1px lightgray;
     height: .9rem;
     width: .9rem;
     border-radius: 50%;
@@ -59,4 +75,13 @@ form span{
 
 form input{
     width: 100%;
+    border: none;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input::placeholder{
+    color: var(--light-grayish-blue);
 }
