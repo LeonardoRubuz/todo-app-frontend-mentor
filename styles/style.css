@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     /* Light theme colors */
     --very-light-gray : hsl(0, 0%, 98%);
@@ -11,11 +13,13 @@
     --very-dark-desaturated-blue : hsl(235,24%,19%);
     --dark-grayish-blue-2 : hsl(234,11%,52%);
     --very-dark-grayish-blue-2 : hsl(233,14%,35%);
+
 }
 
 body{
     margin: 0;
     overflow-x: hidden;
+    font-family: "Josefin Sans";
 }
 
 .back{
@@ -86,6 +90,7 @@ form span{
 form input{
     width: 100%;
     border: none;
+    font-family: inherit;
 }
 
 form input:focus{
